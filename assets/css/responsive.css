@@ -1,0 +1,316 @@
+@media screen and (min-width: 2600px) { 
+    .banner-area {
+        max-width: 2400px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1800px) { 
+   .container {
+        max-width: 1420px;
+    }
+    nav ul {
+        gap: 40px;
+    }
+    .btn {
+        padding: 12px 24px
+    }
+    .banner-info h1 {
+        font-size: 65px;
+    }
+    .banner-info {
+        width: 44%;
+    }
+    .banner-right {
+        width: 56%;
+        min-height: 735px;
+    }
+    .banner-photoSider {
+        max-width: 620px;
+    }
+    .service-years-card {
+        left: -45px;
+    }
+    
+}
+@media screen and (max-width: 1600px) { 
+    .container {
+         max-width: 1220px;
+    }
+    nav ul li {
+        font-size: 18px;
+    }
+    nav ul {
+        gap:35px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .banner-info h1 {
+        font-size: 54px;
+    }
+    .banner-photoSider {
+        max-width: 550px;
+    }
+    .platform-item {
+        font-size: 14px;
+        max-width: 220px;
+        margin-left: 110px;
+        gap: 10px;
+        line-height: 140%;
+    }
+    .service-years-bg h2 {
+        font-size: 45px;
+    }
+    .service-years-card {
+        max-width: 250px;
+        padding: 30px 28px 20px 24px;
+    }
+    .google-logo {
+        padding-bottom: 24px;
+    }
+    .banner-right {
+        min-height: 625px;
+    }
+    .service-years-bg p {
+        font-size: 13px;
+        margin-bottom: 14px;
+    }
+    
+ }
+ @media screen and (max-width: 1300px) { 
+    .container {
+         max-width: 1080px;
+    }
+    .header-area {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+ }
+ @media screen and (max-width: 1200px) { 
+    nav ul li {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    nav ul {
+        gap:25px;
+    }
+    .logo {
+        max-width: 140px;
+    }
+
+    .custom-py {
+        padding-left: 16px;
+        padding-right: 16px;
+    } 
+
+ }
+
+ @media screen and (max-width: 992px) { 
+    .nav-toggler {
+        border: none;
+        outline: none;
+        width: 34px;
+        padding: 0px;
+        background: none;
+        position: relative;
+        z-index: 33;
+      }
+      .nav-toggler span {
+        width: 100%;
+        margin-bottom: 8px;
+        height: 3px;
+        border-radius: 10px;
+        display: block;
+        background:var(--dark);
+      }
+      .nav-toggler span:last-child {
+        margin-bottom: 0px;
+      }
+      a.slicknav_btn.slicknav_collapsed {
+        display: none;
+      }
+      #menu_holder {
+        position: absolute;
+        width: 0px;
+        left: 0;
+        right: 0px;
+        background: var(--dark);
+        top: 0;
+      }
+        .slicknav_nav {
+        display:block !important;
+      }
+      .nav-toggler {
+        transition: all .3s ease;
+      }
+      .nav-toggler.active span:first-child {
+        transform: rotateZ(45deg);
+      }
+      .nav-toggler.active span:last-child {
+        display: none;
+      }
+      
+      .nav-toggler.active span:nth-child(2) {
+        transform: rotateZ(-45deg);
+        margin-top: -11px;
+      }
+      .menu-backdrop {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        background: #0000005c;
+    }
+    
+    .header-bg .menu-backdrop{
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    #menu_holder {
+        height: 100vh;
+        width: 280px;
+        left: inherit;
+        right: 0px;
+        bottom: 0px;
+        width: 0px;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        visibility: hidden;
+        border-radius: 0;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease
+
+    }
+
+    .header.header-position #menu_holder {
+        top:0px;
+    }
+    .mobile-menu-open#menu_holder {
+        visibility: visible;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+        width: 280px;
+        z-index: 3;
+        top:0px;
+    }
+
+    .nav-toggler.active span {
+        background-color: var(--primary) !important;
+    }
+    nav.slicknav_nav.slicknav_hidden {
+        padding-top: 60px;
+    }
+    
+    .overflow-hidden {
+        overflow: hidden;
+    }
+    .slicknav_menu {
+        height: 100vh;
+        overflow: auto;
+        padding-bottom: 200px;
+    }  
+    .slicknav_nav ul {
+        flex-direction: column;
+        align-items:  start !important;
+        margin: 0px;
+        width: 100%;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+    }  
+    nav ul li ul::after, nav ul li ul::before {
+        display: none;
+    }
+
+    nav ul li ul {
+        position: initial;
+        transform-origin:initial;
+        transition:initial
+    }
+    nav ul li:hover ul {
+        opacity: 1;
+        transform:initial;
+        visibility:initial;
+    }
+    .slicknav_nav li {
+        width: 100%;
+    }
+    nav ul {
+        gap: 15px;
+    }
+    .slicknav_nav a {
+        padding: 0px 16px;
+    }
+    nav ul li a::after {
+        bottom: 0px;
+        left: 16px;
+    }
+    a.current-menu-item {
+        color: var(--primary);
+    }
+    .menu-item-has-children > a::before {
+        right: 0px;
+    }
+    li.menu-item-has-children ul {
+        padding-left: 14px;
+        padding-top: 10px;
+    }
+    li.menu-item-has-children ul li:last-child {
+        border-bottom: none;
+    }
+    li.menu-item-has-children ul li:first-child {
+        border-top: 1px solid #dddddd38;
+    }
+    li.menu-item-has-children ul li a {
+        padding:5px 15px;
+    }
+    a.slicknav_item.slicknav_row a::after {
+        display: none;
+    }
+    
+    nav ul li ul { 
+     visibility: visible;
+     opacity: 1;
+     transform: initial;
+    }
+    .menu-item-has-children:hover > a::before {
+        transform: initial;
+    }
+    .slicknav_parent.slicknav_open a a {
+        color: var(--primary);
+    }
+    .slicknav_parent.slicknav_open a::before {
+        transform: rotate(-90deg);
+    }
+    .contact-usBtn .btn {
+        border: 1px solid var(--primary);
+        color: var(--primary);
+        padding: 10px 20px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .contact-usBtn {
+        margin-top: 24px;
+    }
+    .contact-usBtn .btn:hover{
+        color: var(--dark);
+    }
+    .contact-usBtn .btn:hover::after {
+        background: var(--primary);
+    }
+}
