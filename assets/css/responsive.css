@@ -30,11 +30,30 @@
     .service-years-card {
         left: -45px;
     }
+    h2 {
+        font-size: 55px;
+    }
+    .our-team-info h2 {
+        margin-bottom: 50px;
+    }
+    .our-agency-wrap p {
+        font-size: 16px;
+    }
+    .our-team-info ul {
+        padding-top: 50px;
+    }
     
 }
 @media screen and (max-width: 1600px) { 
     .container {
          max-width: 1220px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    .our-team-info h2 {
+        max-width: 600px;
+        margin-bottom: 40px;
     }
     nav ul li {
         font-size: 18px;
@@ -75,8 +94,51 @@
         font-size: 13px;
         margin-bottom: 14px;
     }
-    
+    .our-team-info ul {
+        padding-top: 40px;
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+    .our-team-info ul li {
+        gap: 10px;
+        font-size: 16px;
+    }
+    .our-agency-wrap p br {
+        display: none;
+    }
+    .our-agency-wrap h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
  }
+ @media screen and (max-width: 1400px) { 
+    .platform-item {
+        margin-left: 45px;
+    }
+    .service-years-bg p {
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+    .service-years-card {
+        max-width: 212px;
+    }
+    .service-years-bg h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .google-logo {
+        padding-bottom: 20px;
+    }
+    .google-logo {
+        padding-bottom: 20px;
+    }
+    .banner-right {
+        min-height: 610px;
+    }
+    .service-years-card {
+        left: -82px;
+    }
+}
  @media screen and (max-width: 1300px) { 
     .container {
          max-width: 1080px;
@@ -84,6 +146,13 @@
     .header-area {
         padding-top: 16px;
         padding-bottom: 16px;
+    }
+    .our-team-info h2 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .our-team-info {
+        padding-right: 24px;
     }
  }
  @media screen and (max-width: 1200px) { 
@@ -105,10 +174,42 @@
         padding-left: 16px;
         padding-right: 16px;
     } 
-
+    .banner-photoSider {
+        max-width: 460px;
+    }
+    .banner-info h1 {
+        font-size: 46px;
+    }
+    .banner-info h1 {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+    .banner-info p {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }  
+    .banner-right {
+        min-height: 525px;
+    }  
+    .service-years-card {
+        padding: 20px 20px 15px 16px;
+        max-width: 200px;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custo {
+        bottom: 70px;
+    }
+    .platform-item {
+        margin-left: 0px;
+    }
+    .banner-area {
+      padding-top: 30px;
+    }
  }
 
  @media screen and (max-width: 992px) { 
+    p {
+        font-size: 16px;
+    }
     .nav-toggler {
         border: none;
         outline: none;
@@ -313,4 +414,142 @@
     .contact-usBtn .btn:hover::after {
         background: var(--primary);
     }
+    .banner-content {
+        flex-direction: column;
+    }
+    .banner-photoSider {
+        position: initial;
+    }
+    .banner-info {
+        width: 100%;
+        padding-left: 16px;
+        padding-right:16px;
+    }
+    .banner-photoSider {
+        max-width: 100%;
+    }
+    .banner-right {
+        min-height: auto;
+        width: 100%;
+    }
+    .banner-area  {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .banner-info h1 {
+        font-size:34px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    .banner-area {
+        padding-top: 20px;;
+    }
+    .banner-info p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .platform-item-wrap {
+        justify-content: start !important;
+        padding-left: 50px;
+        margin-bottom: -60px;
+    }
+    .service-years-card {
+        left: 0px;
+        margin-left: 50px;
+        margin-top: -130px;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custo {
+        bottom: 52px;
+    } 
+    .team-content {
+        flex-direction: column;
+    }
+    .our-team-info {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .our-team-area {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .our-team-info h2 {
+        max-width: 100%;
+        font-size: 28px;
+    }
+    .our-team-photo {
+        width: 100%;
+    }
+    .our-team-photo img {
+        width: 100%;
+    }
+    .our-team-info {
+        text-align: center;
+    }
+    .our-team-info .btn {
+        margin: 0 auto;
+    }
+    .our-team-info h2 {
+        margin-bottom: 20px;
+    }
+    .our-team-info ul li {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .our-team-info ul {
+        padding-top: 20px;
+        justify-content: center;
+        gap: 5px 10px;
+        margin-bottom: 10px;
+    } 
+    .our-agency-wrap {
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+    .our-agency-wrap .readmore-btn {
+        font-size: 16px;
+    }
+    .our-agency-wrap {
+        gap:20px 0px
+    }
 }
+@media screen and (max-width: 425px) { 
+    .banner-btn {
+        flex-direction: column;
+    }
+    .banner-btn .btn {
+        justify-content: center;
+    }
+    .banner-info p br {
+        display: none;
+    }
+    .platform-item {
+        font-size: 12px;
+        padding: 8px;
+        max-width: 165px;
+    }
+    .platform-item i {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+    }   
+    .platform-item-wrap {
+        margin-bottom: -24px;
+    } 
+    .service-years-bg h2 {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    .service-years-card {
+        max-width: 195px;
+        margin-left: 20px;
+        margin-top: -45px;
+    }
+    .service-years-bg p {
+        margin-bottom: 6px;
+    }
+    .google-logo {
+        padding-bottom: 7px;
+    }
+    
+   
+ }

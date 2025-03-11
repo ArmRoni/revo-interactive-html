@@ -55,6 +55,9 @@ h4 {
     font-family: "Outfit", sans-serif;
 }
 h5 {
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 600;
     font-family: "Outfit", sans-serif;
 }
 h6 {
@@ -64,6 +67,7 @@ p {
    font-size: 18px;
    line-height: 150%;
    color:#636363;
+   font-family: "Poppins", sans-serif;
    font-weight: 500;
     
 }
@@ -155,6 +159,7 @@ nav ul li ul {
     background-color: var(--white);
     transform-origin: center top 0;
     transition: all .5s ease 0s;
+    z-index: 2;
     border: 1px solid #edefee;
     left: -70px;
     visibility: hidden;
@@ -225,6 +230,7 @@ li.menu-item-has-children {
   gap:8px;
   padding: 16px 32px;
   position: relative;
+  max-width: fit-content;
   border-radius: 8px;
 }
 .btn:hover {
@@ -424,4 +430,51 @@ li.menu-item-has-children {
     align-items: center;
     gap:5px;
     bottom: 100px;
+}
+.bottom-shap {
+    bottom: 20px;
+    left: 0px;
+    width: 6%;
+}
+.team-content {
+    display: flex;
+}
+.our-team-info {
+    width: 55%;
+    padding-right: 35px;
+}
+.our-team-photo {
+    width: 45%;
+}
+.our-team-area  {
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+.our-team-info h2 {
+    max-width: 750px;
+    margin-bottom: 60px;
+}
+.our-team-info ul {
+    padding-top: 60px;
+    gap:20px;
+    margin-bottom: 24px;
+}
+.our-team-info ul li {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.our-agency-wrap h5 {
+    margin-bottom: 16px;
+}
+.our-agency-wrap p {
+    font-weight: 400;
+    display: inline;
+}
+.our-agency-wrap .readmore-btn {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color:var(--textColor);
 }
