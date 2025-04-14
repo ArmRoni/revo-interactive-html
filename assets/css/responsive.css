@@ -42,7 +42,43 @@
     .our-team-info ul {
         padding-top: 50px;
     }
-    
+    .lets-talk-title h2 {
+        font-size: 60px;
+        line-height: 116%;
+        padding-bottom: 55px;
+    }
+    .project-name h4 {
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .our-team-area  .our-team-info h2 {
+       font-size: 50px; 
+    }
+    .our-clients-area .our-team-info {
+        padding-right: 0px;
+        padding-left: 65px;
+    }
+    .our-team-area .our-team-info h2 {
+        font-size: 42px;
+    }
+    .our-journey-details {
+        padding-left: 90px;
+    }
+    .investor-info h6 {
+        font-size: 18px;
+    }
+    .investor-info h4 {
+        font-size: 24px;
+    }
+    .our-journey-photo .project-name h4 {
+        font-size: 35px;
+    }
+    .worldwide-info {
+        padding-left: 110px
+    }
+    .country-name h3 {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -110,6 +146,46 @@
         font-size: 22px;
         margin-bottom: 10px;
     }
+    .our-clients-area .our-agency-wrap {
+        padding-top: 50px;
+    }
+    .our-journey-photo .project-name h4 {
+        font-size: 28px;
+    }
+    .testimonial-wrap {
+        padding: 30px 25px;
+    }
+    .author-info span,
+    .author-info p {
+        font-size: 18px; 
+    }
+    .testimonial-wrap {
+        max-width: 480px;
+    }
+    .worldwide-partners-area {
+        padding-top: 30px
+    }
+    .shape-future-area {
+        padding-top: 30px
+    }
+    .worldwide-info {
+        padding-left: 100px;
+    }
+    .footer-contact span,
+    .content-info a,
+    .footer-widget ul li, .footer-widget p {
+        font-size: 16px;
+        line-height: 145%;
+    }
+    .footer-contact {
+        max-width: 325px;
+    }
+    .footer-text {
+        max-width: 316px;
+    }
+
+
+
  }
  @media screen and (max-width: 1400px) { 
     .platform-item {
@@ -138,6 +214,16 @@
     .service-years-card {
         left: -82px;
     }
+    .our-journey-photo .project-name {
+        left: 20px;
+        bottom: 20px;
+    }
+    .footer-widget ul li {
+        margin-bottom: 8px;
+        font-weight: 400;
+    }
+
+
 }
  @media screen and (max-width: 1300px) { 
     .container {
@@ -154,6 +240,79 @@
     .our-team-info {
         padding-right: 24px;
     }
+    .our-team-area {
+        padding-bottom: 50px
+    }
+    .our-team-area {
+        padding-top: 60px;
+    }
+    .common-title p {
+        font-size: 18px;
+    }
+    .servies-content {
+        max-width: 900px;
+    }
+
+    .servies-item {
+        padding: 24px 30px;
+    }
+    .servies-info-wrap {
+        padding-top: 30px;
+    }
+    .servies-info-title h3 {
+        font-size: 30px;
+        line-height: 125%;
+        margin-bottom: 10px;
+    }
+    .lets-talk-title h2 {
+        font-size: 40px;
+        line-height: 116%;
+        padding-bottom: 45px;
+    }
+    .lets-talk-title {
+        gap: 80px;
+    }
+    .our-clients-area .our-team-info {
+        padding-left: 40px;
+    }
+    .our-team-area .our-team-info h2 {
+        font-size: 36px;
+    }
+    .our-clients-area .our-agency-wrap {
+        padding-top: 30px;
+    }
+    .our-successfull-area {
+        padding-bottom: 60px
+    }
+    .our-journey-details {
+        padding-left: 50px;
+    }
+    .investor-info h4 {
+        font-size: 22px;
+    }
+    .investor-info h6{
+        font-size: 16px;
+    }
+    .investor-info {
+        margin-bottom: 14px
+    }
+    .worldwide-info {
+        padding-left: 60px;
+    }
+    .content-icon {
+        width: 35px;
+        height: 35px;
+        min-width: 35px;
+        font-size: 20px;
+    }
+    .social-media-link {
+        gap: 25px;
+    }
+    .social-media-link ul {
+        gap: 15px;
+    }
+
+
  }
  @media screen and (max-width: 1200px) { 
     nav ul li {
@@ -204,6 +363,42 @@
     .banner-area {
       padding-top: 30px;
     }
+    .clientSlider {
+        padding-top: 30px;
+    }
+    .future-content .project-name h4 {
+        font-size: 26px;
+    }
+    .testimonial-wrap {
+        right: 60px;
+    }
+    .shape-future-bottom {
+        padding-top: 130px;
+    }
+    .shape-future-bottom h3 {
+        margin-bottom: 20px;
+    }
+    .worldwide-info {
+        padding-left: 40px;
+    }
+    .worldwide-info h2{
+        font-size: 34px;
+    }
+    .worldwide-info p {
+        font-size: 16px;
+    }
+    .country-name h3 {
+        font-size: 20px;
+    }
+    .blinking-icon {
+        margin-top: 10px;
+        left: -10px;
+        position: relative;
+    }
+    .footer-text {
+        max-width: 270px;
+    }
+
  }
 
  @media screen and (max-width: 992px) { 
@@ -511,6 +706,279 @@
     .our-agency-wrap {
         gap:20px 0px
     }
+    .services-provide {
+        padding-top: 10px;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 100%;
+    }
+    .common-title p {
+        font-size: 16px;
+        margin-bottom: 0px;
+    } 
+    .servies-content {
+        padding-top: 20px
+    }
+     .servies-item {
+        padding: 15px 18px;
+        margin-bottom: 20px;
+    }
+    .servies-count h4 {
+        font-size: 20px;
+    }
+    .servies-info-title h3 {
+        font-size: 20px;
+        line-height: 125%;
+        margin-bottom: 8px;
+    }
+    .servies-info-wrap {
+        padding-top: 16px;
+        gap: 10px;
+    }
+    .servies-info-arrow {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+    .servies-info-arrow img  {
+        max-width: 16px;
+    }
+    .services-provide {
+        padding-bottom: 30px;
+    }
+    .lets-talk-title h2 {
+        font-size: 24px;
+        line-height: 116%;
+        padding-bottom: 40px;
+    }
+    .lets-talk-title {
+        gap: 30px;
+    } 
+    .lets-talk-title img {
+        width: 20px;
+    }
+    .btn-long-arrow {
+        max-width: 80px;
+        right: -72%;
+    }
+    .lets-talk-area {
+        padding-top: 50px
+    }
+    .project-name h4 {
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .project-name {
+        bottom: 12px;
+        left: 12px;
+        padding: 6px 8px;
+    }
+    .our-successfull-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .our-successfull-area .common-title {
+        padding-bottom: 20px;
+    }
+    .our-successfull-area .banner-btn {
+        padding-top: 30px;
+    }
+    .our-project {
+        flex-direction: column;
+    }
+    .project-list {
+        width: 100%;
+    }
+    .our-clients-area .team-content {
+        flex-direction: column-reverse;
+    }
+    .our-clients-area .our-team-info{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .view-btn {
+      width: fit-content;
+      margin: 0 auto;
+    }
+    .our-team-area .our-team-info h2 {
+        font-size: 28px;
+        line-height: 100%;
+    }
+    .view-btn {
+        font-size: 16px;
+    }
+    .our-team-area.our-clients-area  {
+        padding-bottom: 10px;
+    }
+    .clientSlider {
+        padding-top: 10px;
+        padding-bottom: 30px
+    }
+    .clientSlider {
+        padding-bottom: 0px;
+    }
+    .our-journey-content {
+        flex-direction: column;
+        padding-top: 30px
+    }
+    .our-journey-area {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .our-journey-photo {
+        width: 100%;
+    } 
+    .our-journey-details {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .investor-info h4 {
+        font-size: 20px;
+    }
+    .our-journey-details .btn {
+         margin:0 auto;
+         margin-top: 20px;
+    }
+    .our-journey-photo .project-name h4 {
+        font-size: 16px;
+    }
+    .shape-future-area {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .shape-future-area .common-title {
+        padding-bottom: 20px;
+    }
+    .future-content .project-name h4 {
+        font-size: 18px;
+    }
+    .autho-photo {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+    }
+    .author-info h4 {
+        font-size: 20px;
+    }
+    .author-info span,
+    .author-info p {
+        font-size: 16px;
+    }
+    .testimonial-wrap {
+        padding: 15px 12px;
+    }
+    .testimonialSwiper .swiper-pagination-bullet {
+        height: 10px;
+        width: 10px;
+    }
+    .testimonialSwiper .swiper-pagination-bullet-active { 
+        width: 20px;
+    }
+    .testimonial-wrap {
+        max-width: 286px;
+        right: 20px;
+    }
+    .future-content .project-name {
+        top: 12px;
+        bottom: initial;
+    }
+    .author-info {
+        padding-left: 10px;
+    }
+    .author-info h4 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .author-info span, .author-info p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .author-info span {
+        margin-bottom: 20px;
+    }
+    .shape-future-bottom h3 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .testimonialSwiper .swiper-pagination {
+        left: 58px;
+    }
+    .shape-future-bottom {
+        padding-top: 102px;
+    }
+    .worldwide-partners-area {
+        padding-top: 0px;
+        padding-bottom: 50px
+    }
+    .worldwide-partner-content  {
+        flex-direction: column;
+    }
+    .worldwide-map {
+        width: 100%;
+    }
+    .worldwide-info {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .worldwide-info h2 {
+       font-size: 28px;
+    }
+    .worldwide-info h6 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .worldwide-partners-area .banner-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .worldwide-info p {
+        margin-bottom: 20px
+    }
+    .footer-content  {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .footer-text {
+        max-width: 100%
+    }
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-widget h5 {
+        font-size: 20px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .copyright-conent {
+        padding-top: 10px;
+        flex-direction: column-reverse;
+    }
+    .footer-shap {
+        max-width: 100px;
+    }
+    .social-media-link  {
+        flex-direction: column;
+    }
+    .social-media-link ul li a {
+        width: 40px;
+        height: 40px;
+    }
+    .social-media-link ul li a img {
+         width: 15px;
+    }
+
+
+}
+@media screen and (max-width: 500px) { 
+    .worldwide-map-list {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 425px) { 
     .banner-btn {
@@ -550,6 +1018,27 @@
     .google-logo {
         padding-bottom: 7px;
     }
-    
-   
+    .lets-talk-title h2 {
+        padding-bottom: 15px
+    }
+    .btn-long-arrow {
+        max-width: 80px;
+        right: -24%;
+        bottom: -32px;
+    }
+    .lets-talk-area {
+        padding-bottom: 80px
+    }
+    .project-name h4 {
+        font-size: 14px;
+    }
+    .project-name {
+        padding: 2px 6px;
+    }
+    .our-successfull-area .banner-btn {
+        align-items: center;
+    }
+    .future-content .project-name h4 {
+        font-size: 16px;
+    }
  }

@@ -32,7 +32,7 @@ jQuery(window).scroll(function(){
   });
 
 
-  var swiper = new Swiper(".banner-slider", {
+  var bannerSlider = new Swiper(".banner-slider", {
     loop: true,  // Infinite looping
     autoplay: {
         delay: 3000, // Auto-slide every 3 seconds
@@ -42,5 +42,49 @@ jQuery(window).scroll(function(){
         el: ".swiper-pagination",
         clickable: true,
     },
-});
+  });
+
+  var logoSwiper = new Swiper(".logoSwiper", {
+      slidesPerView: 5,
+      spaceBetween: 40,
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1080: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        },
+        1300: {
+          slidesPerView: 6,
+          spaceBetween: 40,
+        },
+      },
+    });
+
+  const testimonialSwiper = new Swiper(".testimonialSwiper", {
+      slidesPerView: 1,
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
   
