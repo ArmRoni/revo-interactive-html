@@ -79,6 +79,35 @@
     .country-name h3 {
         font-size: 30px;
     }
+    .breadcrumb-area {
+        padding-bottom: 70px
+    }
+
+    .top-btn-box {
+        min-width: 343px;
+        width: 343px;
+    }
+    .achieve-goals-area .common-title h2 {
+        font-size: 50px;
+    }
+    .project-counter-box {
+        padding:50px;
+    }
+    .project-counter-bg strong {
+        font-size: 20px;
+    }
+    .project-counter-bg {
+        padding:65px 20px;
+    }
+    .team-member-info span {
+        font-size: 18px;
+    }
+    .team-member-info h4 {
+        margin-bottom: 4px
+    }
+    .team-shap-icom1 {
+        top:8%;
+    }
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -183,6 +212,50 @@
     .footer-text {
         max-width: 316px;
     }
+    .play-btn {
+        width: 70px;
+        height: 70px;
+    }
+    .tax-saveings h4 {
+        margin-bottom: 15px
+    }
+    .breadcrumb-area {
+        padding-bottom: 50px;
+        padding: 50px;
+    }
+    .top-btn-box {
+        min-width: 322px;
+        width: 322px;
+    }
+    .achieve-goals-area .common-title {
+        padding-right: 40px
+    }
+    .achieve-goals-area .common-title h2 {
+        font-size: 44px;
+    }
+    .title-2 p {
+        font-size: 18px;
+    }
+    .project-counter-box {
+        padding: 40px;
+    }
+    .project-counter-bg strong {
+        font-size: 16px;
+    }
+    .project-counter-bg {
+        padding: 50px 12px;
+    }
+    .project-counter-bg h2 {
+        margin-bottom: 25px
+    }
+
+    .individuals-team-area .common-title h2 {
+        font-size: 42px;
+    }
+    .individuals-team-inner {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
 
 
 
@@ -222,6 +295,17 @@
         margin-bottom: 8px;
         font-weight: 400;
     }
+    .our-lineup-full {
+        padding-top: 120px;
+    }
+    .team-shap-icom2 {
+        max-width: 165px;
+    }
+    .team-shap-icom1 {
+        top: 12%;
+        max-width: 180px;
+    }
+
 
 
 }
@@ -311,8 +395,34 @@
     .social-media-link ul {
         gap: 15px;
     }
-
-
+    .tax-saveings h4 {
+        font-size: 30px;
+    }
+    .tax-saveings h4 span {
+        font-size: 18px;
+        padding: 2px 6px;
+        border-radius: 1px;
+    }
+    .tax-saveings p {
+        font-size: 16px;
+    }
+    .tax-saveings {
+        bottom: -80px;
+        right: 0px;
+        max-width: 140px;
+        padding: 16px 16px;
+    }
+    .about-video-content.position-relative {
+        padding-right: 20px;
+    }
+    .partof-single {
+        padding:10px;
+    }
+    .partof-us-content {
+        margin: -10px;
+        padding-top: 40px;
+        gap: 4px 0px;
+    }
  }
  @media screen and (max-width: 1200px) { 
     nav ul li {
@@ -397,6 +507,15 @@
     }
     .footer-text {
         max-width: 270px;
+    }
+    .title-top-box {
+        align-items: start !important;
+    }
+    .individuals-team-inner {
+        padding-right: 20px;
+    }
+    .individuals-team-inner h3 {
+        font-size: 22px;
     }
 
  }
@@ -972,12 +1091,175 @@
     .social-media-link ul li a img {
          width: 15px;
     }
+    .breadcrumb-area {
+        padding: 30px 20px;
+    }
+    .breadcrumb {
+        padding: 6px 18px;
+    }
+    .breadcrumb li a {
+        font-size: 16px;
+    }
+    .about-revo-area .common-title p {
+        font-size: 16px;
+    }
+    .about-revo-area .common-title {
+        padding-bottom: 20px
+    }
+    .about-video-content {
+        padding-top: 30px;
+    }
+    .tax-saveings h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .tax-saveings h4 span {
+        font-size: 12px;
+        padding: 2px 5px;
+    }
+    .tax-saveings p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .tax-saveings {
+        max-width: 110px;
+    }
+    .tax-saveings {
+        bottom: -50px
+    }
+    .about-video-content.position-relative {
+        padding-right: 10px;
+    }
+    .achieve-goals-area {
+        padding-top: 30px;
+        padding-bottom: 50px
+    }
+    .title-top-box  {
+        flex-direction: column;
+        text-align: center;
+    }
+     .top-btn-box {
+        min-width: 290px;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .achieve-goals-area .common-title {
+        padding-right: 0px;
+        width: 100%;
+    } 
+    .achieve-goals-area .common-title h2 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+    .project-counter-box {
+        padding: 30px;
+    }
+    .project-counter-box .row  {
+        gap:20px 0px;
+    }
 
+    .individuals-team-area {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    .individuals-team-area .common-title h2 {
+        font-size: 28px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .individuals-team-area .common-title p {
+        text-align: center;
+    }
+    .individuals-team-content  {
+        flex-direction: column;
+    }
+    .individuals-team-single {
+        width: 100%;
+        border-right: none;
+    }
+    .individuals-team-inner {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .individuals-team-inner h3 {
+        font-size: 20px;
+    }
+    .individuals-team-content {
+        gap: 20px;
+    }
+    .our-lineup-full {
+        padding-top: 50px
+    }
+    .our-lineup-area {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .lineup-title  {
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-member-info {
+        padding-top: 15px;
+    }
+    .team-member-info h4 {
+        font-size: 20px;
+    }
+    .team-member-info span {
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .team-member-wrap .row {
+        gap: 20px 0px;
+    }
+
+    .team-shap-icom1 {
+        top: 4%;
+        max-width: 140px;
+    }
+    .partof-us-area {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    .partof-us-area .common-title {
+        text-align: center;
+    }
+    .btn-yellow-bg {
+        margin: 0 auto;
+    }
+    .partof-us-area .common-title p {
+        margin-bottom: 20px;
+    }
+    .partof-single {
+        width: 50% !important;
+    }
+    .our-partners-area {
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    .our-partners-area .common-title {
+        width: 100%;
+    }
+    .our-partners-area  .clientSlider {
+        padding-top: 40px
+    }
+}
+@media screen and (max-width: 768px) { 
+    .partof-single {
+        width: 100% !important;
+    }
 
 }
 @media screen and (max-width: 500px) { 
     .worldwide-map-list {
         width: 100%;
+    }
+    .about-video-box  img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .about-video-box  .play-btn img{
+        height: auto;
     }
 }
 @media screen and (max-width: 425px) { 
