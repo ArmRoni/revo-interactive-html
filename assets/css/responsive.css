@@ -1243,7 +1243,18 @@
     .our-partners-area  .clientSlider {
         padding-top: 40px
     }
+    .map-world-full {
+        padding: 50px 0px;
+    }
+    .map-world-area {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    .world-map-content {
+        margin-top: 20px
+    }
 }
+
 @media screen and (max-width: 768px) { 
     .partof-single {
         width: 100% !important;

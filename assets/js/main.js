@@ -99,4 +99,42 @@ jQuery(window).scroll(function(){
     });
 });
 
+
+$(document).ready(function(){
+    $(".hide");
+    $(".marker-japan").click(function(){
+      $( ".japan-txt" ).toggle();
+  
+    });
+    $(".marker-usa").click(function(){
+        $( ".usa-txt" ).toggle();
+    });
+    $(".marker-srilanka").click(function(){
+        $( ".srilanka-txt" ).toggle();
+     
+    });
+    
+    $(".marker-bangladesh").click(function(){
+        $( ".bangladesh-txt" ).toggle();
+    });
+
+    $(".marker-uk").click(function(){
+        $( ".uk-txt" ).toggle();
+    });
+  
+  });
+
+  var ios = document.getElementById("revo-partner-map-for-ios");
+  var chrome = document.getElementById("revo-partner-map");
+  var ua = navigator.userAgent.toLowerCase(); 
+ if (ua.indexOf('safari') != -1) { 
+   if (ua.indexOf('chrome') > -1) {
+     ios.style.display="none"
+     chrome.style.display="block"
+   } else {
+     chrome.style.display="none"
+     ios.style.display="block"
+   }
+ }
+
   
