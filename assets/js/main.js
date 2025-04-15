@@ -125,16 +125,17 @@ $(document).ready(function(){
   });
 
   var ios = document.getElementById("revo-partner-map-for-ios");
-  var chrome = document.getElementById("revo-partner-map");
-  var ua = navigator.userAgent.toLowerCase(); 
- if (ua.indexOf('safari') != -1) { 
-   if (ua.indexOf('chrome') > -1) {
-     ios.style.display="none"
-     chrome.style.display="block"
-   } else {
-     chrome.style.display="none"
-     ios.style.display="block"
-   }
- }
+var chrome = document.getElementById("revo-partner-map");
+var ua = navigator.userAgent.toLowerCase(); 
+
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+    if (ios) ios.style.display = "none";
+    if (chrome) chrome.style.display = "block";
+  } else {
+    if (chrome) chrome.style.display = "none";
+    if (ios) ios.style.display = "block";
+  }
+}
 
   

@@ -108,6 +108,26 @@
     .team-shap-icom1 {
         top:8%;
     }
+    .business-idea-photo {
+        width: 50%;
+    }
+    .business-idea-info {
+        width: 50%;
+        padding-left: 100px;
+    }
+    .quote-text h2 {
+        font-size: 100px;
+    }
+    .quote-text {
+        bottom: -13px;
+        right: -163px;
+    }
+
+    .case-study-area {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -256,8 +276,29 @@
         padding-top: 20px;
         padding-bottom: 80px;
     }
-
-
+     .quote-text h2 {
+        font-size: 80px;
+        line-height: 60px;
+    }
+    .business-idea-info {
+        padding-left: 70px;
+    }
+    .sercives-we-provide-area .servies-content {
+        gap:30px;
+    }
+    .sercives-we-provide-area .servies-item {
+        width: calc((100% - 30px) / 2);
+        padding: 20px 24px;
+    }
+    .sercives-we-provide-area .servies-info-wrap {
+        padding-top: 30px;
+    }
+    .sercives-we-provide-area .servies-info-title h3 {
+        font-size: 24px;
+    }
+    .sercives-we-provide-area .servies-info-title p {
+        font-size: 15px;
+    }
 
  }
  @media screen and (max-width: 1400px) { 
@@ -306,6 +347,13 @@
         max-width: 180px;
     }
 
+    .case-study-area {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+    .case-study-info {
+        padding-right: 20px;
+    }
 
 
 }
@@ -517,6 +565,21 @@
     .individuals-team-inner h3 {
         font-size: 22px;
     }
+    .case-study-person {
+        padding:20px;
+    }
+    .study-person-left h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .study-person-left strong {
+        font-size: 18px;
+        line-height: 28px
+    }
+    .study-person-left p {
+        font-size: 16px;
+    }
+
 
  }
 
@@ -1253,6 +1316,109 @@
     .world-map-content {
         margin-top: 20px
     }
+    .business-idea-area {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .business-idea-container  {
+        flex-direction: column;
+    }
+    .business-idea-photo {
+        width: 100%;
+    }
+    .business-idea-info{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .quote-text h2 {
+        font-size: 36px;
+        line-height: 28px;
+    }
+    .quote-text {
+        bottom: -25px;
+        right: 9px;
+    }
+    .business-idea-info h2 {
+        margin-bottom: 10px;
+    }
+    .sercives-provide-full {
+        padding-top: 50px
+    }
+    .sercives-we-provide-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sercives-we-provide-area .servies-content {
+        padding-top: 30px;
+    }
+    .sercives-we-provide-area .servies-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sercives-we-provide-area .servies-item {
+        width: 100%;
+    }
+    .sercives-we-provide-area .servies-info-arrow {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+    .sercives-we-provide-area .servies-item {
+        padding:15px 18px;
+    }
+    .sercives-we-provide-area .servies-count h4 {
+        font-size: 20px;
+    }
+    .sercives-we-provide-area .servies-info-wrap {
+        padding-top: 15px;
+    }
+    .sercives-we-provide-area .servies-info-title h3 {
+        font-size: 20px;
+    }
+    .sercives-we-provide-area .servies-info-title p {
+        font-size: 14px;
+    }
+
+    .case-study-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .case-study-info span {
+        font-size: 16px;
+        line-height: 22px; 
+        padding-bottom: 10px;
+    }
+    .case-study-info h2 {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .case-study-info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .closing-more h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .closing-more {
+        padding-top: 10px;
+    }
+    .closing-more .banner-btn {
+        padding-top: 10px;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .case-study-photo {
+        max-width: 100%;
+    }
+    .study-person-left {
+        text-align: start;
+    }
+
 }
 
 @media screen and (max-width: 768px) { 
@@ -1272,6 +1438,32 @@
     .about-video-box  .play-btn img{
         height: auto;
     }
+    .study-person-left h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .study-person-left strong {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .study-person-left p {
+        font-size: 14px;
+    }
+    .star small,
+    .rated-star small {
+        font-size: 16px;
+    }
+    .star-area {
+        width: 106px;
+    }
+    .case-study-person {
+        padding: 12px;
+    }
+    .closing-more .banner-btn {
+        align-items: center;
+    }
+
+
 }
 @media screen and (max-width: 425px) { 
     .banner-btn {
