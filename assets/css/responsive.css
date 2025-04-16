@@ -135,6 +135,16 @@
     .clientsSidler .swiper-nav-custom {
         width: 43%;
     }
+    .google-rataing-text p {
+        font-size: 34px;
+    }
+    .employee-benifits-content .info-details h6 {
+        font-size: 38px;
+    }
+    .employee-benifits-content .info-details p {
+        font-size: 18px;
+        line-height: 26px;
+    }
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -342,6 +352,19 @@
     }
     .clientsSidler .swiper-nav-custom {
         width: 50%;
+    }
+    .google-rataing-text p {
+        font-size: 28px;
+    }
+    .employee-benifits-content .info-details {
+        padding-top: 30px;
+    } 
+    .employee-benifits-content .info-details h6 {
+        font-size: 30px;
+    }
+    .employee-benifits-content .info-details p {
+        font-size: 16px;
+        line-height: 22px;
     }
 
 
@@ -644,6 +667,9 @@
     }
     .contant-form-item {
         width: calc((100% - 30px) / 2);
+    }
+    .google-rataing-text p {
+        font-size: 20px;
     }
 
 
@@ -1585,6 +1611,26 @@
     .clientsSidler .swiper-nav-custom {
         margin-top: 30px;
     }
+    .team-gallary-area .about-video-content  {
+        padding-top: 20px;
+    }
+    .employee-benifits-content {
+        padding-top: 30px;
+    }
+
+    .employee-benifits-content .info-icon {
+        font-size: 20px;
+    }
+    .employee-benifits-content .info-details h6 {
+        font-size: 24px;
+    }
+
+    .working-processing .common-title h2 {
+        line-height: 120%;
+    }
+    .working-processing .partof-us-content {
+        padding-top: 30px
+    }
 
 
 
@@ -1606,6 +1652,27 @@
     .contact-us-area {
         padding-top: 0px;
     }
+    .google-rataing-content  {
+        flex-direction: column;
+    }
+    .google-rataing-text {
+        width: 100%;
+        text-align: center;
+    }
+    .google-rataing-text p {
+        font-size: 16px;
+    }
+    .google-rataing-content {
+        border-radius: 8px;
+        padding: 20px 15px;
+    }
+    .google-rataing-text p br {
+        display: none;
+    }
+    .project-counter-box.google-rataing-box {
+        padding-bottom: 0;
+    }
+    
 
 }
 @media screen and (max-width: 500px) { 
@@ -1642,6 +1709,9 @@
     }
     .closing-more .banner-btn {
         align-items: center;
+    }
+   .team-gallary-area  .about-video-box img {
+        height: auto;
     }
 
 

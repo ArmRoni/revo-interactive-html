@@ -2034,9 +2034,106 @@ circle {
 .clientsSidler .swiper-button-prev:hover:after {
     color: var(--primary);
 }
+.common-title .btn-yellow-bg:hover {
+    background: var(--dark);
+    border:1px solid var(--dark);
 
+}
+.common-title .btn-yellow-bg {
+    margin-top: 30px
+}
+.our-team-area  .about-video-content {
+    padding-right: 0px;
+}
+.google-rataing-box {
+    background: transparent;
+    margin-top: 0px;
+    padding-bottom: 30px
+}
+.google-rataing-content {
+    border: 1px solid #AFAFAF;
+    border-radius: 8px;
+    padding: 40px 30px;
+}
+.google-rataing-text p {
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    color: #565656;
+    margin-bottom: 0px
+}
 
+.google-rataing-content  .service-years-card {
+    left: 0;
+    margin:0;
+}
+.google-rataing-text {
+    width: 69%;
+}
+.contact-btn-box {
+    padding-top: 60px;
+}
+.contact-btn-box p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #837E7E;
+}
 
+.contact-btn-box  .btn-yellow-bg {
+    margin: 0 auto;
+}
+.contact-btn-box  .btn-yellow-bg:hover {
+    background: var(--dark);
+    border: 1px solid var(--dark);
+}
+.open-position-area {
+    padding-bottom: 110px
+}
+.employee-benifits-content {
+    padding-top: 60px;
+}
+.employee-benifits-content .info-icon {
+    background: url(assets/image/number-bg.png)no-repeat;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background-size: cover;
+    width: 64px;
+    height: 55px;
+    background-position: center center;
+    position: relative;
+    color: #101010;
+    line-height: 120%;
+}
+.employee-benifits-content .info-details {
+    padding-top: 40px
+}
+.employee-benifits-content .info-details h6 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #1F1A1A;
+}
+.employee-benifits-content .info-details p {
+    color: #989696;
+}
+.employee-benifits-content .our-informtion-bg {
+    background: var(--white);
+}
+.employee-benifits-content .row {
+    gap:30px 0px;
+}
+.working-processing {
+    background: var(--gry-bg);
+}
+.working-processing .common-title h2 {
+    color: #1F1D1D;
+}
+.working-processing .common-title p {
+    color: #837E7E;
+    margin-bottom: 0px !important;
+}
 
 
 
