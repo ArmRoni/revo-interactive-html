@@ -125,17 +125,34 @@ $(document).ready(function(){
   });
 
   var ios = document.getElementById("revo-partner-map-for-ios");
-var chrome = document.getElementById("revo-partner-map");
-var ua = navigator.userAgent.toLowerCase(); 
+  var chrome = document.getElementById("revo-partner-map");
+  var ua = navigator.userAgent.toLowerCase(); 
 
-if (ua.indexOf('safari') != -1) { 
-  if (ua.indexOf('chrome') > -1) {
-    if (ios) ios.style.display = "none";
-    if (chrome) chrome.style.display = "block";
-  } else {
-    if (chrome) chrome.style.display = "none";
-    if (ios) ios.style.display = "block";
+  if (ua.indexOf('safari') != -1) { 
+    if (ua.indexOf('chrome') > -1) {
+      if (ios) ios.style.display = "none";
+      if (chrome) chrome.style.display = "block";
+    } else {
+      if (chrome) chrome.style.display = "none";
+      if (ios) ios.style.display = "block";
+    }
   }
-}
+
+
+   const clientsSidler = new Swiper('.clientsSidler', {
+      loop: true,
+      //  autoplay: {
+      //   delay: 2000,
+      //   disableOnInteraction: false,
+      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction'
+      }
+    });
 
   
