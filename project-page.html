@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>services</title>
+    <title>Project Page</title>
     <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
                 </div>
                 <nav id="menu-nav" class="d-none d-lg-block">
                     <ul class="d-flex align-items-center mb-0">
-                        <li><a href="index.html" class="current-menu-item">Intro</a></li>
+                        <li><a href="index.html">Intro</a></li>
                         <li><a href="about-us.html">About</a></li>
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
@@ -39,8 +39,8 @@
                                 <li><a href="#">Products</a></li>
                             </ul>
                         </li>
-                        <li><a href="project-page.html">Project</a></li>
-                        <li><a href="team-gallary.html">Gallery</a></li>
+                        <li><a href="project-page.html" class="current-menu-item" >Project</a></li>
+                        <li><a href="team-gallary.html" >Gallery</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Blog</a></li>
                     </ul>
@@ -68,203 +68,167 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                          <li class="breadcrumb-item"><a href="#">Home <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Service</li>
+                         <li class="breadcrumb-item active" aria-current="page">Project</li>
                     </ol>
                 </nav>
 
             </div>  
         </div>  
 
-
-        <section class="business-idea-area custom-py">
+        <section class="our-project-area custom-py">
             <div class="container">
-                <div class="business-idea-container d-flex align-items-center">
-                    <div class="business-idea-photo position-relative">
-                        <img src="assets/image/business-idea.jpg" alt="">
-                        <a data-fancybox="" href="https://youtu.be/LqmratdBFNw" class="video-button">
-                            <div class="rotating-text"><img src="assets/image/watchvideo.png" alt=""></div>
-                            <div class="play-icon">▶</div>
-                        </a>
-                        <div class="quote-text">
-                            <h2>GROW <br> FAST</h2>
-                        </div>
-                    </div>
-
-                    <div class="business-idea-info">
-                        <h2>We have ideal plans for your business</h2>
-                        <p> 
-                           <strong>A good business plan guides you through each stage of starting and managing your business.</strong>
-                        </p>
-                        <p>The executive summary the most important part of your business plan, & perhaps the only one that will get read to make it perfect! The executive summary has only one objective.</p>
-                    </div>
-
+                <div class="common-title bottom-line">
+                    <h2>Hear from the team</h2>
+                    <p>Here is a showcase of our latest projects that went live, let's highlight your next product here.</p>
                 </div>
 
-            </div>
-        </section>
-
-        <div class="sercives-provide-full">
-            <div class="sercives-we-provide-area custom-py">
-                <div class="container">
-                    <div class="common-title title-2">
-                       <h2>Services We Provide</h2>
-                        <p>Our services are not limited to the list below, but just the highlights. Just, knock and find out how deep the rabbit hole goes.</p>
+                <div class="our-project-content">
+                    <div id="filters" class="toolbar d-flex">
+                        <button class="fil-cat filter active" data-filter="all">All</button>
+                        <button class="fil-cat filter" data-rel="beauty-care" data-filter=".beauty-care">Beauty Care Products</button>
+                        <button class="fil-cat filter" data-rel="data-cloud" data-filter=".data-cloud">Data Cloud</button> 
+                        <button class="fil-cat filter" data-rel="e-commerce" data-filter=".e-commerce">E-commerce</button>
+                        <button class="fil-cat filter" data-rel="it-agency" data-filter=".it-agency">It Agency</button>
+                        <button class="fil-cat filter" data-rel="dashboard" data-filter=".dashboard">Dashboard</button>
+                        <button class="fil-cat filter" data-rel="food" data-filter=".food">Food</button>
+                        <button class="fil-cat filter" data-rel="edtech" data-filter=".edtech">Edtech</button>
+                        <button class="fil-cat filter" data-rel="energy" data-filter=".energy">Energy</button>
                     </div>
-                    <div class="servies-content d-flex flex-wrap">
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>01</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>Apps Development</h3>
-                                    <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>02</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>E-commerce Solutions</h3>
-                                    <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>03</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>Visuahmm l Services</h3>
-                                   <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>04</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>Web &amp; Server Hosting</h3>
-                                    <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
 
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>05</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>Business Process Outsourcing</h3>
-                                    <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="servies-item">
-                            <div class="servies-count">
-                                <h4>06</h4>
-                            </div>
-                            <div class="servies-info-wrap d-flex align-items-center justify-content-between">
-                                <div class="servies-info-title">
-                                    <h3>Mass Mailing</h3>
-                                    <p>Be it Web applications, Android or iOS, or cross platform systems we make high performing, smooth applications tailored for your business needs. Our Apps are developed with fully<a href="#" class="readmore-btn">Read more...</a></p>
-                                </div>
-                                <div class="servies-info-arrow d-flex align-items-center justify-content-center">
-                                    <img src="assets/image/yello-arrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <section class="case-study-area custom-py">
-            <div class="container">
-                <div class="case-study-content">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="case-study-info">
-                                <span>Case study</span>
-                                <h2>How we helped Hourglass</h2>
-                                <p> Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam.
-                                </p>
-                                    
-                                <p>Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat. </p>
-                                <div class="closing-more">
-                                    <h4>Closing more clients</h4>
-                                    <p>Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.</p>
-                                    <div class="banner-btn d-flex">
-                                      <a href="#" class="btn">Contact us<i class="fa-solid fa-arrow-right"></i></a>
-                                      <a href="#" class="btn common-btn">Read case study<i class="fa-solid fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                             <div class="case-study-photo">
-                                <img src="assets/image/Image.jpg" alt="">
-                                <div class="case-study-person d-flex gap-2 justify-content-between">
-                                    <div class="case-study-person-bg">
-                                        
-                                    </div>
-                                    <div class="study-person-left">
-                                        <h2>Abdullah Zabir</h2>
-                                        <strong>PM, Hourglass</strong>
-                                        <p>Revo Interactive </p>
-                                    </div>
-                                    <div class="study-rating">
-                                        <div class="star-area">
-                                            <div class="star">
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                            </div>
-                                            <div class="rated-star" style="width: calc(5 * 16%);">
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
-                                                <small><i class="fas fa-star"></i></small>
+                    <div id="portfolio">
+                        <div class="tile scale-anm beauty-care">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>Admin Dashboard</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="tile scale-anm data-cloud">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>Digital It Agency</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tile scale-anm e-commerce">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>Leather Products</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tile scale-anm e-commerce">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>E-commerce</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tile scale-anm it-agency">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>Leather Products</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tile scale-anm edtech">
+                            <div class="sucessfull-project-list">
+                                <div class="sucessfull-project-photo">
+                                    <a href="#">
+                                        <img src="assets/image/project-photo.png" alt="">
+                                        <div class="cursor">
+                                            <div class="cursor__inner">
+                                                 <span>Explore </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sucessfull-project-info">
+                                    <h3>Education</h3>
+                                    <p>A well-designed dashboard transforms complex data into clear insights, making decision-making faster and more efficient. </p>
+                                    <a href="#" class="project-btn">Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
                     </div>
-                    
-                   
-                </div>
+
+                </div>  
             </div>
         </section>
 
-        <section class="our-partners-area custom-py">
+
+         <section class="our-partners-area custom-py">
             <div class="container">
                <div class="lineup-title d-flex justify-content-between gap-3 align-items-center">
                     <div class="common-title title-2">
@@ -326,6 +290,31 @@
             </div>
         </section>
 
+
+         <section class="lets-talk-area custom-py">
+            <div class="container">
+               <div class="lets-talk-title d-flex justify-content-between align-items-center ">
+                    <img src="assets/image/lalk-icon.png" alt="">
+                    <h2>Want To Grow Your Business</h2>
+                    <img src="assets/image/lalk-icon.png" alt="">
+               </div> 
+                <div class="button-box position-relative d-flex justify-content-center">
+                    <div class="talk-btn">
+                       <a href="#" class="btn common-btn black-btn">LET'S TALK  
+                           <i class="fa-solid fa-arrow-right"></i>
+                       </a>
+                        <span></span>
+                    </div>
+                    <div class="btn-long-arrow">
+                         <img src="assets/image/long-arrow.png" alt="">
+                    </div>
+                </div>    
+           </div>
+        </section>
+
+
+
+       
 
         <footer class="footer custom-py">
             <div class="container">
@@ -430,6 +419,7 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
     <script src="assets/js/main.js"></script>
     
 

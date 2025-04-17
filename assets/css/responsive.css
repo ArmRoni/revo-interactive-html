@@ -145,6 +145,27 @@
         font-size: 18px;
         line-height: 26px;
     }
+    .team-person-inner strong, .team-person-inner p {
+        font-size: 28px;
+    }
+    #filters {
+        gap: 20px;
+    }
+    .filter {
+        font-size: 18px;
+    }
+    .sucessfull-project-info h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .sucessfull-project-info p {
+        font-size: 18px;
+    }
+    #portfolio {
+        -webkit-column-gap: 60px;
+        -moz-column-gap: 60px;
+        column-gap: 60px;
+    }
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -366,6 +387,24 @@
         font-size: 16px;
         line-height: 22px;
     }
+    .team-person-inner {
+        padding:30px;
+    }
+    .team-person-inner strong,
+    .team-person-inner p {
+        font-size: 24px;
+    }
+    .filter {
+        font-size: 16px;
+    }
+    .filter {
+        padding:10px 20px;
+    }
+    #filters {
+        gap: 15px;
+    }
+
+ 
 
 
  }
@@ -427,6 +466,10 @@
     }
     .clienst-info span, .clienst-info h6 {
         font-size: 22px;
+    }
+    .sucessfull-project-info h3 {
+        font-size: 40px;
+        line-height: 50px
     }
 
 }
@@ -553,7 +596,15 @@
     .clientsSidler .swiper-nav {
         margin:0 auto;
     }
-
+    .team-person-inner strong, .team-person-inner p {
+        font-size: 20px;
+    }
+    .team-person-inner span {
+        font-size: 18px;
+    }
+     #filters {
+        flex-wrap: wrap;
+    }
  }
  @media screen and (max-width: 1200px) { 
     nav ul li {
@@ -670,6 +721,24 @@
     }
     .google-rataing-text p {
         font-size: 20px;
+    }
+    #portfolio {
+        -webkit-column-gap: 30px;
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+    }
+    .tile:first-child {
+        margin-top: 50px;
+    }
+    .sucessfull-project-info h3 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .sucessfull-project-info p {
+        font-size: 16px;
+    }
+    .tile {
+        margin-bottom: 50px
     }
 
 
@@ -1631,6 +1700,51 @@
     .working-processing .partof-us-content {
         padding-top: 30px
     }
+    .hear-team-area {
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+    .hear-team-content  {
+        flex-direction: column;
+        padding-top: 20px
+    }
+    .team-person-inner {
+        padding: 20px;
+    }
+    .team-person-inner strong, .team-person-inner p {
+        font-size: 16px;
+    }
+    .team-person-info {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .qute-icon {
+        position: absolute;
+        top: 15px;
+        left: 14px;
+    }
+    .team-person-inner span {
+        font-size: 16px;
+    }
+    .team-person-inner strong {
+        margin-bottom: 2px
+    }
+    .team-person-photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-project-area {
+        padding-top: 50px
+    }
+    .our-project-content {
+        padding-top: 30px
+    }
+    .filter {
+        padding: 7px 16px;
+    }
 
 
 
@@ -1672,7 +1786,38 @@
     .project-counter-box.google-rataing-box {
         padding-bottom: 0;
     }
-    
+    #portfolio {
+         webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+ 
+    }
+    .tile {
+        margin-bottom:30px
+    }
+    .tile:first-child {
+        margin-top: 0px;
+    }
+    #filters {
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+    .sucessfull-project-info h3 {
+        font-size: 22px;
+        line-height: 30px;
+        text-shadow: 0px 2px 2px;
+    }
+    .sucessfull-project-info p {
+        font-size: 15px;
+    }
+    .project-btn {
+        font-size: 16px;
+    }   
+    .cursor__inner {
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+    } 
 
 }
 @media screen and (max-width: 500px) { 

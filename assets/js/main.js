@@ -139,20 +139,86 @@ $(document).ready(function(){
   }
 
 
-   const clientsSidler = new Swiper('.clientsSidler', {
-      loop: true,
-       autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction'
-      }
+ const clientsSidler = new Swiper('.clientsSidler', {
+    loop: true,
+     autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction'
+    }
+  });
+
+
+ $(document).ready(function() {
+  $('#portfolio').mixItUp({
+    selectors: {
+      target: '.tile',
+      filter: '.filter'
+    },
+    animation: {
+      animateResizeContainer: false,
+      effects: 'fade scale'
+    }
+  });
+
+  // Add event listener to toggle active class on filters
+  $('.filter').click(function() {
+    $('.filter').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
+// set the starting position of the cursor outside of the screen
+let clientX = -100;
+let clientY = -100;
+let lastX = -100;
+let lastY = -100;
+
+const cursor = document.querySelector('.cursor');
+const sections = document.querySelectorAll('.sucessfull-project-photo');
+
+if (sections.length && cursor) {
+  sections.forEach(section => {
+    section.addEventListener('mouseenter', () => {
+      cursor.classList.add('visible');
     });
+
+    section.addEventListener('mouseleave', () => {
+      cursor.classList.remove('visible');
+    });
+  });
+}
+
+const lerp = (a, b, n) => (1 - n) * a + n * b;
+
+const initCursor = () => {
+  if (!cursor) return;
+
+  document.addEventListener('mousemove', e => {
+    clientX = e.clientX;
+    clientY = e.clientY;
+  });
+
+  const render = () => {
+    const delta = 0.1;
+    lastX = lerp(lastX, clientX, delta);
+    lastY = lerp(lastY, clientY, delta);
+
+    cursor.style.transform = `translate(${lastX}px, ${lastY}px)`;
+
+    requestAnimationFrame(render);
+  };
+
+  requestAnimationFrame(render);
+};
+
+initCursor();
 
   
