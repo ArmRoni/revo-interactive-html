@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     margin: 0;
     overflow-x: hidden;
@@ -15,9 +14,7 @@ body {
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: var(--dark);
-/*    background: #F7F7F7;*/
 }
-
 :root {
     --primary: #FCDA00;
     --white: #fff;
@@ -2014,7 +2011,7 @@ circle {
     position: initial;
     margin-top: -18px;
     font-size: 24px;
-    colo:#786D6D;
+    colo: #786D6D;
     font-family: "Inter", sans-serif;
 }
 .clientsSidler .swiper-nav {
@@ -2256,7 +2253,8 @@ circle {
 .filter.active {
     background: var(--primary);
     color: #000;
-    font-weight: 600;
+    text-shadow: 0px 0px 0px;
+    
 }
 .our-project-content {
     padding-top: 60px
@@ -2334,9 +2332,344 @@ circle {
     border-radius: 30px;
     display: inline-block;
     box-shadow: #b2a8a8 0px 5px 4px
-
+}
+#portfolio.blog-contant {
+    column-count: initial;
+    column-gap: initial;
+    gap:0 20px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+.blog-contant .tile { 
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 60px;
+}
+
+.blog-contant .tile:first-child{
+    margin-top: 0px;
+}
+.blog-photo img {
+    border-radius: 10px 10px 0px 0px
+}
+.blog-item-singel {
+    background: var(--white);
+    border-radius: 10px;
+}
+.blog-item-info {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding:24px;
+    border-radius: 0px 0px 10px 10px;
+}
+.blog-item-info p {
+    margin-bottom: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+     overflow: hidden;
+
+}
+.blog-item-info span,
+.blog-item-info small {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background: #DDDDDD;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 500;
+    padding:2px 10px;
+    color: #12141D;
+}
+.blog-item-info span {
+    background: transparent;
+    font-weight: 400;
+}
+.blog-item-info p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #12141D;
+}
+.blog-item-info p a {
+  color: #12141D;
+}
+.blog-item-info p a:hover {
+    color: var(--primary);
+}
+.blog-meta  {
+    padding-bottom: 18px
+}
+
+.blog-cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  z-index: 10;
+  transition: transform 0.3s ease; 
+  transform: translate(-50% , -50%);
+}
+.blog-photo {
+    position: relative;
+    overflow: hidden;
+}
+
+.cursor-inner-blog {
+  width: 85px;
+  height: 85px;  
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  border:1px solid var(--primary);  
+  font-size: 12px;
+  font-weight: 500;  
+  background: rgb(26 26 26 / 40%);
+}
+.page-link:focus {
+    box-shadow: none;
+}
+.pagination {
+    gap: 12px;
+}
+.page-link {
+    width: 40px;
+    height: 40px;
+    padding:5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #909091;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909091;
+    border-radius: 5px;
+}
+.page-item:last-child .page-link,
+.page-item:first-child .page-link {
+    color: var(--dark);
+}
+
+.active>.page-link, .page-link.active,
+.page-link:hover {
+    background: var(--primary);
+    color: var(--dark);
+    border: 1px solid #909091;
+}
+.blog-main-area {
+    padding-bottom: 30px;
+}
+.open-positaion-area {
+    background: var(--gry-bg);
+    padding-top:100px;
+    padding-top: 100px; 
+}
+.jobpost-single {
+    background: var(--white);
+    padding:32px;
+    border-radius: 21px;
+    border: 1px solid #EAECF0;
+    margin-top: 40px
+}
+.jobpost-name  h3 {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 37px;
+    font-family: "Poppins", sans-serif;
+    color: #101828;
+}
+.jobpost-name  {
+    gap:10px;
+}
+.jobtitle {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    color: #175CD3;
+    font-weight: 500;
+    background: #EFF8FF;
+    border-radius: 21px;
+    position: relative;
+    padding:3px 12px 3px 30px;
+    position: relative;
+}
+.jobtitle::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #2E90FA;
+    top:11px;
+    left: 12px;
+}
+.jobpost-name-location  {
+    padding-bottom: 10px
+}
+.job-location {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #344054;
+    padding: 3px 12px 3px 5px;
+    background: #F2F4F7;
+    border-radius: 21px;
+    gap: 8px;
+}
+.locaiton-icon {
+     width: 22px;
+     height: 22px;
+     min-width: 22px;
+     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.locaiton-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.jobpost-single p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #475467;
+    font-weight: 400;
+    margin-bottom: 0px
+}
+.job-details  {
+    margin-top: 42px
+}
+.job-details  {
+    gap:32px;
+}
+.jobtype  span {
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #475467;
+    font-family: "Inter", sans-serif;
+
+}
+
+.software-dev {
+   color: #C11574; 
+   background: #FDF2FA;
+}
+.software-dev::before {
+   background: #C11574;
+}
+.careers {
+    color: #027A48;
+    background: #ECFDF3;
+}
+.careers::before {
+   background: #027A48; 
+}
+.sales {
+    background:#EEF4FF;
+   color:#3538CD ;
+}
+.sales::before {
+    background: #3538CD;
+}
+
+#portfolio.our-product-box {
+    column-count: initial;
+    column-gap: initial;
+}
+
+.our-product-box .sucessfull-project-list {
+    display: flex;
+    align-items: center;
+}
+
+.our-product-box  .sucessfull-project-photo {
+    box-shadow: none;
+    width: 46%;
+}
+.our-product-box .sucessfull-project-info {
+    width: 56%;
+    padding: 0px;
+    padding-left: 70px;
+
+}
+.our-product-box .sucessfull-project-info p,
+.our-product-box .sucessfull-project-info h3 {
+    text-shadow: none;
+}
+.our-product-box .sucessfull-project-info p {
+    margin-bottom: 32px
+}
+.our-product-box .project-btn {
+    box-shadow: none;
+}
+.project-title {
+    font-size: 20px;
+    line-height: 150%;
+    color: #5E5E5E;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.our-product-box .sucessfull-project-info h3 {
+    margin-top: 16px;
+}
+.procuct-view-btn .project-btn:hover {
+    background: #444444;
+    color: var(--white);
+}
+
+.reverse-cal-item .sucessfull-project-list{
+    flex-direction: row-reverse;
+}
+.our-product-box  .reverse-cal-item .sucessfull-project-info { 
+    padding-left: 0px;
+    padding-right: 70px;
+}
+.our-product-box   .cursor__inner {
+    border: 1px solid var(--white);
+    background: rgb(26 26 26 / 30%);
+}
+
+.products-map-photo  {
+    border-radius: 20px;
+    margin-bottom: 100px
+}
+.products-map-photo  img  {
+    border-radius: 24px;
+}
+.our-products-area .tile:first-child {
+    margin-top: 0px !important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -221,4 +221,18 @@ const initCursor = () => {
 
 initCursor();
 
-  
+
+  // document.querySelectorAll('.blog-photo').forEach(photo => {
+  //   const cursor = photo.querySelector('.blog-cursor');
+
+  //   photo.addEventListener('mousemove', e => {
+  //     const rect = photo.getBoundingClientRect();
+  //     const x = e.clientX - rect.left;
+  //     const y = e.clientY - rect.top;
+  //     cursor.style.transform = `translate(${x}px, ${y}px)`;
+  //   });
+
+  //   // Removed mouseleave so cursor stays visible
+  // });
+
+  // 
