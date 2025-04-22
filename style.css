@@ -95,9 +95,12 @@ ul {
 .header-area {
     padding-top: 24px;
     padding-bottom: 24px;
+    background: var(--white);
 }
 .header-content {
     gap: 20px;
+    position: relative;
+    z-index: 1;
 }
 nav ul li a {
     font-family: "Inter", sans-serif;
@@ -1283,9 +1286,10 @@ li.menu-item-has-children {
 }
 .individuals-team-area .common-title h2 {
     color: var(--white);
-    font-size: 51px;
+    font-size: 48px;
     line-height: 130%;
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
 .individuals-team-content {
     padding-top: 40px;
@@ -1355,7 +1359,7 @@ li.menu-item-has-children {
     color: #171612;
  }
 .team-member-info span {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 140%;
     font-weight: 400;
     color: #171612;
@@ -1417,6 +1421,7 @@ li.menu-item-has-children {
     border-radius: 8px;
     width: 100%;
     object-fit: cover;
+    height: 360px;
 }
 .partof-us-content {
     margin:-15px;
@@ -2400,24 +2405,14 @@ circle {
 .blog-meta  {
     padding-bottom: 18px
 }
-
-.blog-cursor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  pointer-events: none;
-  z-index: 10;
-  transition: transform 0.3s ease; 
-  transform: translate(-50% , -50%);
-}
 .blog-photo {
     position: relative;
     overflow: hidden;
 }
 
 .cursor-inner-blog {
-  width: 85px;
-  height: 85px;  
+  width: 90px;
+  height: 90px;  
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -2589,7 +2584,6 @@ circle {
 }
 
 .our-product-box  .sucessfull-project-photo {
-    box-shadow: none;
     width: 46%;
 }
 .our-product-box .sucessfull-project-info {
@@ -2644,6 +2638,12 @@ circle {
 }
 .our-products-area .tile:first-child {
     margin-top: 0px !important
+}
+
+.blog-photo.sucessfull-project-photo {
+    background: transparent;
+    border-radius:10px 10px 0px 0px;
+    box-shadow: none;
 }
 
 
