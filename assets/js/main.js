@@ -220,3 +220,10 @@ const initCursor = () => {
 };
 
 initCursor();
+
+document.addEventListener("DOMContentLoaded", function() {
+  new WOW({
+    delay: '1s'
+  }).init();
+});
+

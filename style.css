@@ -2646,10 +2646,63 @@ circle {
     box-shadow: none;
 }
 
-
-
-
-
+.photo-hover {
+    position: relative;
+    overflow: hidden;
+/*    height: fit-content;*/
+}
+.photo-hover::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgb(170 100 100 / 0%) 0%, rgb(246 241 35 / 30%) 100%);
+    background: linear-gradient(to right, rgb(170 100 100 / 0%) 0%, rgb(246 241 35 / 30%) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.photo-hover:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+.photo-hover img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.photo-hover:hover img {
+   -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.our-team-photo {
+    border-radius: 8px;
+    height: fit-content;
+}
+.our-team-area.our-clients-area .our-team-photo img{
+    width: 100%;
+}
+.testimonial-image-inner {
+    border-radius: 8px;
+}
+.hear-team-area  .photo-hover::before {
+        left: -78%;
+}
+.hear-team-area .team-person-photo  {
+    border-radius: 0px;
+}
 
 
 
