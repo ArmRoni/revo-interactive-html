@@ -170,6 +170,9 @@
     .partof-bg img {
         height: 300px;
     }
+    .team-member-photo img {
+        height: 350px;
+    }
 }
 @media screen and (max-width: 1600px) { 
     .container {
@@ -425,6 +428,9 @@
     }
     .partof-bg img {
         height: 260px;
+    }
+    .team-member-photo img {
+        height: 300px;
     }
 
  }
@@ -777,6 +783,9 @@
     }
     .our-product-box .sucessfull-project-info {
         padding-left: 30px;
+    }
+     .team-member-photo img {
+        height: 360px;
     }
 
 
@@ -1986,6 +1995,16 @@
     }
     .partof-bg img {
         height: auto;
+    }
+    .team-member-photo img  {
+        height: auto;
+    }
+    .team-filter-list .nav-link {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .project-single-area  {
+        padding-bottom: 50px
     }
 
 }

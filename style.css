@@ -2704,6 +2704,57 @@ circle {
     border-radius: 0px;
 }
 
+.our-team-full .team-member-wrap{
+    display: none;
+}
+.our-team-full .team-member-wrap.show {
+    display: block;
+}
+.team-filter-list .nav-link  {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.team-filter-list .nav-link.active {
+    color: var(--primary);
+}
+.team-member-photo img {
+    height: 380px;
+    object-fit: cover;
+}
+.fancy-thumb-images {
+    display: none;
+}
+.pro-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+
+}
+.pro-btn a {
+    color: var(--dark);
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+.pro-btn a:hover {
+    color: var(--primary);
+    background: var(--dark);
+}
+.project-single-area {
+    padding-bottom: 100px;
+}
+
 
 
 

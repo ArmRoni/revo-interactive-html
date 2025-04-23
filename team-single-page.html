@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team single page</title>
+     <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-area custom-py">
+            <div class="container header-content d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/image/logo.svg" alt="">
+                    </a>
+                </div>
+                <nav id="menu-nav" class="d-none d-lg-block">
+                    <ul class="d-flex align-items-center mb-0">
+                        <li><a href="index.html">Intro</a></li>
+                        <li><a href="about-us.html" class="current-menu-item">About</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="services.html">Services</a>
+                            <ul>
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="#">Products</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="project-page.html">Project</a></li>
+                        <li><a href="team-gallary.html">Gallery</a></li>
+                        <li><a href="product-page.html">Products</a></li>
+                        <li><a href="blog-page.html">Blog</a></li>
+                    </ul>
+                    <div class="contact-usBtn d-block d-lg-none">
+                        <a href="#" class="btn">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </nav>
+                <div class="humbarger-menu d-block d-lg-none">
+                    <button class="nav-toggler toggler-open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="menu-backdrop"></div>
+                    <div id="menu_holder"></div>
+                </div>
+                <div class="contact-usBtn d-none d-lg-block">
+                    <a href="contact-us.html" class="btn">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <div class="breadcrumb-area custom-py">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                         <li class="breadcrumb-item"><a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Team</li>
+                    </ol>
+                </nav>
+
+            </div>  
+        </div>  
+
+        <section class="our-lineup-full pt-0">
+            <div class="our-lineup-area custom-py position-relative">
+                <div class="team-shap-icom1">
+                    <img src="assets/image/team-shap-1.png" alt="">
+                </div>
+                 <div class="team-shap-icom2">
+                    <img src="assets/image/team-shap-2.png" alt="">
+                </div>
+
+                <div class="container">    
+                    <div class="lineup-title d-flex justify-content-between gap-3 align-items-center">
+                        <div class="common-title title-2">
+                            <h2>Our Team</h2>
+                        </div>
+                        <div class="team-filter-list">
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active"data-bs-toggle="tab" data-bs-target="#bd-team">Bangladesh Team</button>
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sl-team">Sri Lanka Team</button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="our-team-full"> 
+                        <div class="team-member-wrap fade show active" id="bd-team">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-1.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Abdullah Zabir</a></h4>
+                                            <span>Founder & CEO</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-2.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Mahabubur  Ripon</a></h4>
+                                            <span>Head Of Visual Experience</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-3.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Shohana</a></h4>
+                                            <span>Lead Developer</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-4.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Saiful Islam Xakib</a></h4>
+                                            <span>Business Operations & Strategy Manager</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-5.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Habibur Rahman</a></h4>
+                                            <span>Admin & Accounts</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-6.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Reshma</a></h4>
+                                            <span>Office Operations Manager</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-7.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Saleheen</a></h4>
+                                            <span>Project Coordinator</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-8.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Shanto</a></h4>
+                                            <span>Resource Coordinator</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member-wrap fade" id="sl-team">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/sampath.jpeg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Sampath</a></h4>
+                                            <span>COO, Sri Lanka Branch</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/akash.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Akash</a></h4>
+                                            <span>Intern</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/wenuja.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Wenuja</a></h4>
+                                            <span>Intern</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/dulaksha.jpeg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Dulaksha</a></h4>
+                                            <span>Intern</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <div class="team-member-single">
+                                        <div class="team-member-photo">
+                                            <img src="assets/image/team-5.jpg" alt="">
+                                        </div>
+                                        <div class="team-member-info">
+                                            <h4><a href="#">Anuradha</a></h4>
+                                            <span>Intern</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="our-partners-area custom-py">
+            <div class="container">
+               <div class="lineup-title d-flex justify-content-between gap-3 align-items-center">
+                    <div class="common-title title-2">
+                        <h2>Check Our <span>Clients</span>  And Partners</h2>
+                        <p>We’ve helped hundreds of partners, ranging from startups to medium-sized businesses to achieve their goals. And stellar feedback — is our reward!</p>
+                    </div>
+                    <a href="#" class="btn">Client<i class="fa-solid fa-arrow-right"></i></a>
+                </div> 
+
+                <div class="clientSlider wow fadeInUp">
+                    <div class="swiper logoSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class=" client-item"> 
+                                    <img src="assets/image/client-1.png" alt="" />
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="client-item"> 
+                                    <img src="assets/image/client-2.png" alt="" />
+                                </div>
+                            </div>
+                            
+
+                            <div class="swiper-slide">
+                                <div class="client-item"> 
+                                    <img src="assets/image/client-3.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class=" client-item"> 
+                                    <img src="assets/image/client-4.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                 <div class="client-item"> 
+                                    <img src="assets/image/client-5.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-item"> 
+                                    <img src="assets/image/client-6.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                 <div class="client-item"> 
+                                    <img src="assets/image/client-1.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer custom-py">
+            <div class="container ">
+                <div class="footer-content d-flex">
+                    <div class="footer-widget">
+                        <div class="footer-text">
+                            <div class="footer-logo">
+                                <img src="assets/image/footer-logo.svg" alt="">
+                            </div>
+                           <p>Revo Interactive believes in becoming not just a development agency for you but a partner, a stakeholder to take you and business to greater heights. </p>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <h5>Useful Links</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Our Products</a></li>
+                            <li><a href="#">Team Member</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h5>Contact Us</h5>
+                        <div class="footer-contact">
+                            <div class="contact-item d-flex">
+                                <div class="content-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phone</span>
+                                    <a href="tel:01844-646633">+8801844-646633</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item d-flex">
+                                <div class="content-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="content-info">
+                                    <span>Email</span>
+                                    <a href="mailto:contact@revo-interactive.com">contact@revo-interactive.com</a>
+                                </div>
+                            </div>
+
+                             <div class="contact-item d-flex">
+                                <div class="content-icon">
+                                   <i class="fa-solid fa-location-crosshairs"></i>
+                                </div>
+                                <div class="content-info">
+                                    <span>Address</span>
+                                    <p>357/10A, Modhubagh, Moghbazar, Dhaka-1217, Bangladesh</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="bg-line">
+                    <img src="assets/image/bg-line.png" alt="">
+                </div>
+                <div class="copyright-conent d-flex gap-3 flex-wrap justify-content-between align-items-center">
+                    <p>Copyright &copy; 2025 |<a href="index.html">Revo Interactive</a> </p>
+                    <div class="social-media-link d-flex align-items-center">
+                        <span>Follow Us</span>
+                        <ul class="d-flex">
+                            <li><a href="#"><img src="assets/image/fb.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/image/lnk.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/image/x.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/image/youtube.svg" alt=""></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-shap">
+                <img src="assets/image/footer-icon.png" alt="">
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
