@@ -227,3 +227,29 @@ document.addEventListener("DOMContentLoaded", function() {
   }).init();
 });
 
+
+
+document.querySelectorAll('.marquee-swiper').forEach(swiperEl => {
+  const isRTL = swiperEl.getAttribute('data-direction') === 'rtl';
+    new Swiper(swiperEl, {
+      slidesPerView: 3,  // Show 4 items per page
+      spaceBetween: 10,  // Default space between slides
+      loop: true,        // Infinite loop
+      freeMode: true,
+      speed: 4000,       // Speed of the animation
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        reverseDirection: isRTL
+      },
+      allowTouchMove: false,
+      breakpoints: {
+        991: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        }
+      }
+    });
+  });
+
+

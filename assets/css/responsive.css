@@ -432,6 +432,12 @@
     .team-member-photo img {
         height: 300px;
     }
+    .marquee-slider {
+        margin-top: -23%;
+        margin-bottom: -31%;
+        margin-left: -15%;
+        margin-right: -15%;
+    }
 
  }
  @media screen and (max-width: 1400px) { 
@@ -633,6 +639,15 @@
      #filters {
         flex-wrap: wrap;
     }
+    .marquee-slider {
+        margin-top: -28%;
+        margin-bottom: -31%;
+        margin-left: -15%;
+        margin-right: -15%;
+    }
+    .marquee-section .swiper-slide {
+        height: 300px;
+    }
  }
  @media screen and (max-width: 1200px) { 
     nav ul li {
@@ -767,6 +782,7 @@
     .sucessfull-project-info p {
         font-size: 16px;
     }
+    .marquee-slider-contanier,
     .products-map-photo,
     .tile {
         margin-bottom: 50px
@@ -1848,6 +1864,10 @@
         text-shadow: 0px 1px 3px #00000082;
     }
 
+    .marquee-section {
+        padding: 5px 0;
+    }
+
 
 }
 
@@ -1893,6 +1913,7 @@
         column-count: 1;
  
     }
+    .marquee-slider-contanier,
     .tile {
         margin-bottom:30px
     }
@@ -2006,6 +2027,9 @@
     .project-single-area  {
         padding-bottom: 50px
     }
+    .marquee-section .swiper-slide {
+        height: 200px;
+    }
 
 }
 @media screen and (max-width: 500px) { 
@@ -2049,6 +2073,11 @@
     .our-team-area .about-video-box img {
         height: auto;
     }
+
+    .marquee-section .swiper-slide {
+        height: 150px;
+    }
+
 
 
 }
@@ -2113,4 +2142,8 @@
     .future-content .project-name h4 {
         font-size: 16px;
     }
+    .marquee-slider-contanier {
+        border: 3px solid #D0D0D0;
+    }
+
  }
