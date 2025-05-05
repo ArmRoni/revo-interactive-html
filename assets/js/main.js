@@ -175,15 +175,15 @@ $(document).ready(function(){
   });
 });
 
+
+ 
 // set the starting position of the cursor outside of the screen
 let clientX = -100;
 let clientY = -100;
 let lastX = -100;
 let lastY = -100;
-
 const cursor = document.querySelector('.cursor');
 const sections = document.querySelectorAll('.sucessfull-project-photo');
-
 if (sections.length && cursor) {
   sections.forEach(section => {
     section.addEventListener('mouseenter', () => {
@@ -195,17 +195,13 @@ if (sections.length && cursor) {
     });
   });
 }
-
 const lerp = (a, b, n) => (1 - n) * a + n * b;
-
 const initCursor = () => {
   if (!cursor) return;
-
   document.addEventListener('mousemove', e => {
     clientX = e.clientX;
     clientY = e.clientY;
   });
-
   const render = () => {
     const delta = 0.1;
     lastX = lerp(lastX, clientX, delta);
@@ -215,11 +211,10 @@ const initCursor = () => {
 
     requestAnimationFrame(render);
   };
-
   requestAnimationFrame(render);
 };
-
 initCursor();
+
 
 document.addEventListener("DOMContentLoaded", function() {
   new WOW({

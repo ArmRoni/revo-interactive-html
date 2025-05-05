@@ -2806,10 +2806,18 @@ circle {
 .marquee-slider-contanier {
     margin-bottom: 100px;
 }
+#cards .servies-item {
+    position: sticky;
+    top: 0;
+    transition: none;
+}
 
-
-
-
+#cards .servies-info-title p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 
 
 
